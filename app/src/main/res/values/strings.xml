@@ -1,3 +1,16 @@
 <resources>
     <string name="app_name">Intents Challenge</string>
+    <string name="contacts_app">Contacts App</string>
+    <string name="result">result</string>
+    <string name="call">call</string>
+    <string name="web">web</string>
+    <string name="map">map</string>
+    <string name="create_new_contact">CREATE NEW CONTACT</string>
+    <string name="please_enter_your_name">Please enter your name</string>
+    <string name="please_enter_your_number">Please enter your number</string>
+    <string name="please_enter_your_website">Please enter your website</string>
+    <string name="please_enter_location_or_address">Please enter location or address</string>
+    <string name="happy">happy</string>
+    <string name="neutural">neutural</string>
+    <string name="sad">sad</string>
 </resources>

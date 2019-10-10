@@ -58,14 +58,16 @@ public class MainActivity extends AppCompatActivity {
 
         if(requestCode==ACTIVITY2)
         {
-            ivCall.setVisibility(View.VISIBLE);
-            ivResult.setVisibility(View.VISIBLE);
-            ivWeb.setVisibility(View.VISIBLE);
-            ivMap.setVisibility(View.VISIBLE);
-            tvName.setVisibility(View.VISIBLE);
+
 
             if(resultCode==RESULT_OK)
             {
+                ivCall.setVisibility(View.VISIBLE);
+                ivResult.setVisibility(View.VISIBLE);
+                ivWeb.setVisibility(View.VISIBLE);
+                ivMap.setVisibility(View.VISIBLE);
+                tvName.setVisibility(View.VISIBLE);
+
                 tvName.setText("Hello "+ data.getStringExtra("name"));
 
 
