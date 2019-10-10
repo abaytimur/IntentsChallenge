@@ -68,7 +68,9 @@ public class MainActivity extends AppCompatActivity {
                 ivMap.setVisibility(View.VISIBLE);
                 tvName.setVisibility(View.VISIBLE);
 
-                tvName.setText("Hello "+ data.getStringExtra("name"));
+                String str=data.getStringExtra("name");
+                String strUpperCase = str.substring(0, 1).toUpperCase() + str.substring(1);
+                tvName.setText("Hello "+strUpperCase);
 
 
                 String web=data.getStringExtra("web");
@@ -129,7 +131,7 @@ public class MainActivity extends AppCompatActivity {
             }
             if(resultCode==RESULT_CANCELED)
             {
-                Toast.makeText(MainActivity.this, "Somethings went wrong!", Toast.LENGTH_SHORT).show();
+                Toast.makeText(MainActivity.this, "Something went wrong!", Toast.LENGTH_SHORT).show();
             }
 
         }
